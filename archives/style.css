@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto';
+}
+body{
+    background-color:wheat;
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+}
+main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+form input{
+    outline:none;
+    border:3px solid black;
+    border-radius:5px;
+    padding:10px;
+    font-size:30px;
+    cursor:pointer;
+    color:#000000;
+}
+ul li{
+    width:auto;
+    font-size:25px;
+    font-weight:600;
+    padding: 10px 0px;
+    border:2px solid black;
+    border-radius:15px;
+    max-width:600px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.deletar{
+    outline:none;
+    border:0;
+    font-size:30px;
+    background-color:rgba(0, 0, 0, 0);
+}
+.edit{
+    outline:none;
+    border:0;
+    font-size:30px;
+    background-color:rgba(0, 0, 0, 0);
+}
+.icons input{
+    border-radius:50%;
+    width:100px;
+}
+.owner{
+    padding:5px 10px;
+    font-size:35px;
+}
+.content{
+    padding:5px 10px;
+    width:300px;
+    text-align:center;
+    text-decoration:none;
+}
+button{
+    cursor: pointer;
+}
+
+form button{
+    background:rgba(0, 0, 0, 0);
+    outline:none;
+    border:3px solid black;
+    border-radius:5px;
+    padding:10px;
+    font-size:30px;
+    cursor:pointer;
+    color:#080808;
+}
+form button:active {
+    transform: translateY(-3px);
+    box-shadow:0px 0px 10px rgba(0,0,0,1);
+    
+}
+form button:hover {
+    transition:0.2s;
+    border:3px solid #5a5d6c;
+}
+.checkmark{
+    margin:0 10px;
+}
+
+
+
+
